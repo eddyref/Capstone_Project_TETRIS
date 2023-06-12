@@ -43,11 +43,19 @@ kp_pivot = kp.pivot(index='provinsi', columns='tahun', values='kredit').reset_in
 # plt.show()
 
 # Visualisasi Hubungan Kredit dan PDRB
-print(kp_pivot.join(pdrb, on='provinsi'))
-#
-#
-#
-#
+pdrb.columns = ['no.', 'provinsi', 'tahun_2011', 'tahun_2012', 'tahun_2013', 'tahun_2014', 'tahun_2015',
+                'tahun_2016', 'tahun_2017', 'tahun_2018', 'tahun_2019', 'tahun_2020', 'tahun_2021', 'tahun_2022']
+kp_pdrb = pd.melt(pdrb, id_vars=['no.', 'provinsi'], var_name='tahun', value_name='PDRB')
+# print(kp_pdrb.join(kp[kp['tahun'] >= 2011].reset_index(), on='provinsi'))
+kp_n = kp[kp['tahun'] >= 2011].reset_index()
+data = kp_pdrb.join(kp_n, on='provinsi')
+print(data)
+# sns.scatterplot(
+#     data=kp_pdrb,
+#     x=
+# )
+
+
 # # Visualisasi Kredit Berdasarkan Jenis Penggunaan
 # k_k_tahun = k_k.groupby('tahun').sum()
 # k_i_tahun = k_i.groupby('tahun').sum()
