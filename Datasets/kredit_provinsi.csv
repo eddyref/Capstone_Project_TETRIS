@@ -1,0 +1,715 @@
+no,provinsi,tahun,kredit
+1,Aceh,2002,1568.5
+2,Sumatera Utara,2002,10058.58
+3,Sumatera Barat,2002,3747.333
+4,Riau,2002,8048.167
+5,Jambi,2002,2581.833
+6,Sumatera Selatan,2002,4687.583
+7,Bangka Belitung,2002,549.75
+8,Bengkulu,2002,587.25
+9,Lampung,2002,3244.333
+10,Banten,2002,8403.917
+11,D.K.I. Jakarta,2002,79170.17
+12,Jawa Barat,2002,28963.5
+13,Jawa Tengah,2002,20611.33
+14,D.I. Yogyakarta,2002,2015.167
+15,Jawa Timur,2002,26173.33
+16,Bali,2002,5405.583
+17,Nusa Tenggara Barat,2002,1406.417
+18,Nusa Tenggara Timur,2002,1033.75
+19,Kalimantan Barat,2002,2377.25
+20,Kalimantan Tengah,2002,1418.083
+21,Kalimantan Selatan,2002,2566.667
+22,Kalimantan Timur,2002,3039.417
+23,Sulawesi Utara,2002,1859.25
+24,Gorontalo,2002,359
+25,Sulawesi Tengah,2002,1164.917
+26,Sulawesi Selatan,2002,6334.917
+27,Sulawesi Tenggara,2002,705.1667
+28,Maluku Utara,2002,159.5
+29,Maluku,2002,273.3333
+30,Papua,2002,1110.25
+31,Papua Barat,2002,0
+32,Sulawesi Barat,2002,0
+33,Kepulauan Riau,2002,0
+34,Kalimantan Utara,2002,0
+35,Aceh,2003,2234.417
+36,Sumatera Utara,2003,13466.75
+37,Sumatera Barat,2003,4872.417
+38,Riau,2003,9461.25
+39,Jambi,2003,2903.75
+40,Sumatera Selatan,2003,6576.333
+41,Bangka Belitung,2003,549.3333
+42,Bengkulu,2003,822.1667
+43,Lampung,2003,4655.583
+44,Banten,2003,11731.42
+45,D.K.I. Jakarta,2003,101336.3
+46,Jawa Barat,2003,39116.83
+47,Jawa Tengah,2003,26268.33
+48,D.I. Yogyakarta,2003,2909.75
+49,Jawa Timur,2003,34562.33
+50,Bali,2003,6729
+51,Nusa Tenggara Barat,2003,1882
+52,Nusa Tenggara Timur,2003,1380.917
+53,Kalimantan Barat,2003,3298
+54,Kalimantan Tengah,2003,1788.583
+55,Kalimantan Selatan,2003,3091.75
+56,Kalimantan Timur,2003,4685.417
+57,Sulawesi Utara,2003,2411
+58,Gorontalo,2003,466.9167
+59,Sulawesi Tengah,2003,1666
+60,Sulawesi Selatan,2003,9267.5
+61,Sulawesi Tenggara,2003,973.9167
+62,Maluku Utara,2003,252.4167
+63,Maluku,2003,421.25
+64,Papua,2003,1615.75
+65,Papua Barat,2003,0
+66,Sulawesi Barat,2003,0
+67,Kepulauan Riau,2003,0
+68,Kalimantan Utara,2003,0
+69,Aceh,2004,2817.667
+70,Sumatera Utara,2004,17220.58
+71,Sumatera Barat,2004,6011.5
+72,Riau,2004,10839.5
+73,Jambi,2004,3149.833
+74,Sumatera Selatan,2004,6931.583
+75,Bangka Belitung,2004,609.5
+76,Bengkulu,2004,1132.167
+77,Lampung,2004,5692.083
+78,Banten,2004,14145
+79,D.K.I. Jakarta,2004,115643.3
+80,Jawa Barat,2004,46267
+81,Jawa Tengah,2004,30636.33
+82,D.I. Yogyakarta,2004,3691.25
+83,Jawa Timur,2004,41190.83
+84,Bali,2004,7077.333
+85,Nusa Tenggara Barat,2004,2268.417
+86,Nusa Tenggara Timur,2004,1715.833
+87,Kalimantan Barat,2004,4137.833
+88,Kalimantan Tengah,2004,2005.25
+89,Kalimantan Selatan,2004,3841.833
+90,Kalimantan Timur,2004,6743
+91,Sulawesi Utara,2004,2905.833
+92,Gorontalo,2004,612.1667
+93,Sulawesi Tengah,2004,2086.833
+94,Sulawesi Selatan,2004,10514.67
+95,Sulawesi Tenggara,2004,1136.083
+96,Maluku Utara,2004,350.9167
+97,Maluku,2004,501.4167
+98,Papua,2004,1992.333
+99,Papua Barat,2004,0
+100,Sulawesi Barat,2004,143
+101,Kepulauan Riau,2004,0
+102,Kalimantan Utara,2004,0
+103,Aceh,2005,4100.667
+104,Sumatera Utara,2005,26096.83
+105,Sumatera Barat,2005,7584.667
+106,Riau,2005,11442.67
+107,Jambi,2005,4286
+108,Sumatera Selatan,2005,9381.083
+109,Bangka Belitung,2005,1038.25
+110,Bengkulu,2005,1584.833
+111,Lampung,2005,8170.25
+112,Banten,2005,21059.67
+113,D.K.I. Jakarta,2005,168285.8
+114,Jawa Barat,2005,67004.75
+115,Jawa Tengah,2005,43019.17
+116,D.I. Yogyakarta,2005,5563.667
+117,Jawa Timur,2005,59086.25
+118,Bali,2005,9902.167
+119,Nusa Tenggara Barat,2005,3233.917
+120,Nusa Tenggara Timur,2005,2392.667
+121,Kalimantan Barat,2005,5514.5
+122,Kalimantan Tengah,2005,3003.583
+123,Kalimantan Selatan,2005,5691.583
+124,Kalimantan Timur,2005,10062.33
+125,Sulawesi Utara,2005,3913.583
+126,Gorontalo,2005,919.1667
+127,Sulawesi Tengah,2005,3072.75
+128,Sulawesi Selatan,2005,14449.5
+129,Sulawesi Tenggara,2005,1473.167
+130,Maluku Utara,2005,526.9167
+131,Maluku,2005,797.0833
+132,Papua,2005,2609.417
+133,Papua Barat,2005,0
+134,Sulawesi Barat,2005,639.1667
+135,Kepulauan Riau,2005,4394.167
+136,Kalimantan Utara,2005,0
+137,Aceh,2006,5003.833
+138,Sumatera Utara,2006,31920.08
+139,Sumatera Barat,2006,8580.5
+140,Riau,2006,14343.67
+141,Jambi,2006,5313
+142,Sumatera Selatan,2006,10674.25
+143,Bangka Belitung,2006,1493.917
+144,Bengkulu,2006,2094.25
+145,Lampung,2006,10280.75
+146,Banten,2006,24134.67
+147,D.K.I. Jakarta,2006,194203.3
+148,Jawa Barat,2006,79415.25
+149,Jawa Tengah,2006,50263.67
+150,D.I. Yogyakarta,2006,6626.667
+151,Jawa Timur,2006,67694.25
+152,Bali,2006,11542.67
+153,Nusa Tenggara Barat,2006,3998.667
+154,Nusa Tenggara Timur,2006,2841.667
+155,Kalimantan Barat,2006,6573.667
+156,Kalimantan Tengah,2006,3658.25
+157,Kalimantan Selatan,2006,6757
+158,Kalimantan Timur,2006,11804.67
+159,Sulawesi Utara,2006,4891.25
+160,Gorontalo,2006,1086.417
+161,Sulawesi Tengah,2006,3490.083
+162,Sulawesi Selatan,2006,17775
+163,Sulawesi Tenggara,2006,1878.417
+164,Maluku Utara,2006,630
+165,Maluku,2006,1120.25
+166,Papua,2006,3340.75
+167,Papua Barat,2006,0
+168,Sulawesi Barat,2006,786.3333
+169,Kepulauan Riau,2006,5523.917
+170,Kalimantan Utara,2006,0
+171,Aceh,2007,6554.917
+172,Sumatera Utara,2007,35947.58
+173,Sumatera Barat,2007,10528.83
+174,Riau,2007,16108
+175,Jambi,2007,6468.167
+176,Sumatera Selatan,2007,12751.17
+177,Bangka Belitung,2007,1701.25
+178,Bengkulu,2007,2801.25
+179,Lampung,2007,12906
+180,Banten,2007,28626.92
+181,D.K.I. Jakarta,2007,221538.8
+182,Jawa Barat,2007,92185.33
+183,Jawa Tengah,2007,58621.75
+184,D.I. Yogyakarta,2007,7678.25
+185,Jawa Timur,2007,80342.75
+186,Bali,2007,13164.25
+187,Nusa Tenggara Barat,2007,5003.583
+188,Nusa Tenggara Timur,2007,3686.667
+189,Kalimantan Barat,2007,7979.667
+190,Kalimantan Tengah,2007,4494.583
+191,Kalimantan Selatan,2007,8118.5
+192,Kalimantan Timur,2007,13820.92
+193,Sulawesi Utara,2007,6152.083
+194,Gorontalo,2007,1251.167
+195,Sulawesi Tengah,2007,4310.167
+196,Sulawesi Selatan,2007,22589
+197,Sulawesi Tenggara,2007,2515.667
+198,Maluku Utara,2007,843.8333
+199,Maluku,2007,1481.833
+200,Papua,2007,3123.667
+201,Papua Barat,2007,1289.167
+202,Sulawesi Barat,2007,1026.083
+203,Kepulauan Riau,2007,6552.333
+204,Kalimantan Utara,2007,0
+205,Aceh,2008,9148.833
+206,Sumatera Utara,2008,47947
+207,Sumatera Barat,2008,14298.75
+208,Riau,2008,21352.75
+209,Jambi,2008,8681.833
+210,Sumatera Selatan,2008,17674.25
+211,Bangka Belitung,2008,2511.083
+212,Bengkulu,2008,4229.5
+213,Lampung,2008,17096.67
+214,Banten,2008,38001.08
+215,D.K.I. Jakarta,2008,304487.2
+216,Jawa Barat,2008,119922.8
+217,Jawa Tengah,2008,75016.42
+218,D.I. Yogyakarta,2008,9719.833
+219,Jawa Timur,2008,105794.5
+220,Bali,2008,17123.17
+221,Nusa Tenggara Barat,2008,6348.167
+222,Nusa Tenggara Timur,2008,4893.333
+223,Kalimantan Barat,2008,10381.58
+224,Kalimantan Tengah,2008,6001.25
+225,Kalimantan Selatan,2008,11559.08
+226,Kalimantan Timur,2008,18768
+227,Sulawesi Utara,2008,8695.917
+228,Gorontalo,2008,1787.75
+229,Sulawesi Tengah,2008,5876.5
+230,Sulawesi Selatan,2008,28372.17
+231,Sulawesi Tenggara,2008,3633.083
+232,Maluku Utara,2008,1239.667
+233,Maluku,2008,2111.833
+234,Papua,2008,4555.917
+235,Papua Barat,2008,1811.583
+236,Sulawesi Barat,2008,1481.083
+237,Kepulauan Riau,2008,8282.167
+238,Kalimantan Utara,2008,0
+239,Aceh,2009,11132.58
+240,Sumatera Utara,2009,57543.42
+241,Sumatera Barat,2009,16487.17
+242,Riau,2009,26600.58
+243,Jambi,2009,10375.42
+244,Sumatera Selatan,2009,22660.5
+245,Bangka Belitung,2009,3090.417
+246,Bengkulu,2009,5331.083
+247,Lampung,2009,19110.67
+248,Banten,2009,46624.92
+249,D.K.I. Jakarta,2009,369520.5
+250,Jawa Barat,2009,145434.2
+251,Jawa Tengah,2009,88797.25
+252,D.I. Yogyakarta,2009,11080.33
+253,Jawa Timur,2009,123725.1
+254,Bali,2009,21152
+255,Nusa Tenggara Barat,2009,7728.167
+256,Nusa Tenggara Timur,2009,6171.083
+257,Kalimantan Barat,2009,13029.33
+258,Kalimantan Tengah,2009,8358.75
+259,Kalimantan Selatan,2009,14302
+260,Kalimantan Timur,2009,24872.42
+261,Sulawesi Utara,2009,10590.83
+262,Gorontalo,2009,2599.167
+263,Sulawesi Tengah,2009,7401.833
+264,Sulawesi Selatan,2009,32391.25
+265,Sulawesi Tenggara,2009,4294
+266,Maluku Utara,2009,1688.167
+267,Maluku,2009,2927.417
+268,Papua,2009,5928.25
+269,Papua Barat,2009,2360.167
+270,Sulawesi Barat,2009,1881.583
+271,Kepulauan Riau,2009,9843.917
+272,Kalimantan Utara,2009,0
+273,Aceh,2010,15144.44
+274,Sumatera Utara,2010,64593.72
+275,Sumatera Barat,2010,19792.13
+276,Riau,2010,31935.67
+277,Jambi,2010,12134.28
+278,Sumatera Selatan,2010,27695.52
+279,Bangka Belitung,2010,3613.308
+280,Bengkulu,2010,6098.131
+281,Lampung,2010,23187.84
+282,Banten,2010,59673.7
+283,D.K.I. Jakarta,2010,464437.9
+284,Jawa Barat,2010,171789.1
+285,Jawa Tengah,2010,102242.2
+286,D.I. Yogyakarta,2010,12559.42
+287,Jawa Timur,2010,148108.7
+288,Bali,2010,25277.35
+289,Nusa Tenggara Barat,2010,9267.913
+290,Nusa Tenggara Timur,2010,7529.963
+291,Kalimantan Barat,2010,15734.45
+292,Kalimantan Tengah,2010,11188.03
+293,Kalimantan Selatan,2010,17250.39
+294,Kalimantan Timur,2010,32717.24
+295,Sulawesi Utara,2010,12846.79
+296,Gorontalo,2010,2948.108
+297,Sulawesi Tengah,2010,8796.077
+298,Sulawesi Selatan,2010,38431.88
+299,Sulawesi Tenggara,2010,5082.483
+300,Maluku Utara,2010,1865.793
+301,Maluku,2010,3783.139
+302,Papua,2010,7542.452
+303,Papua Barat,2010,2324.388
+304,Sulawesi Barat,2010,1856.759
+305,Kepulauan Riau,2010,12087.42
+306,Kalimantan Utara,2010,0
+307,Aceh,2011,19900.93
+308,Sumatera Utara,2011,78442.5
+309,Sumatera Barat,2011,25937.96
+310,Riau,2011,39680.98
+311,Jambi,2011,16505.72
+312,Sumatera Selatan,2011,37556.73
+313,Bangka Belitung,2011,4822.758
+314,Bengkulu,2011,8742.63
+315,Lampung,2011,30080.1
+316,Banten,2011,76647.98
+317,D.K.I. Jakarta,2011,522861
+318,Jawa Barat,2011,213685.7
+319,Jawa Tengah,2011,126399
+320,D.I. Yogyakarta,2011,15123.5
+321,Jawa Timur,2011,180105.4
+322,Bali,2011,32783.65
+323,Nusa Tenggara Barat,2011,12268.82
+324,Nusa Tenggara Timur,2011,9770.143
+325,Kalimantan Barat,2011,22116.24
+326,Kalimantan Tengah,2011,15617.89
+327,Kalimantan Selatan,2011,22274.16
+328,Kalimantan Timur,2011,41115.86
+329,Sulawesi Utara,2011,17173.6
+330,Gorontalo,2011,4148.786
+331,Sulawesi Tengah,2011,11940.35
+332,Sulawesi Selatan,2011,49596.14
+333,Sulawesi Tenggara,2011,7864.125
+334,Maluku Utara,2011,3000.129
+335,Maluku,2011,5177.07
+336,Papua,2011,10376.89
+337,Papua Barat,2011,3869.762
+338,Sulawesi Barat,2011,3033.318
+339,Kepulauan Riau,2011,14969.93
+340,Kalimantan Utara,2011,0
+341,Aceh,2012,22143.18
+342,Sumatera Utara,2012,99053.6
+343,Sumatera Barat,2012,31500.8
+344,Riau,2012,50670.18
+345,Jambi,2012,21357.3
+346,Sumatera Selatan,2012,50599.27
+347,Bangka Belitung,2012,7107.432
+348,Bengkulu,2012,11228.66
+349,Lampung,2012,37695.8
+350,Banten,2012,114169.9
+351,D.K.I. Jakarta,2012,601773.3
+352,Jawa Barat,2012,270617.7
+353,Jawa Tengah,2012,156480.6
+354,D.I. Yogyakarta,2012,18198.78
+355,Jawa Timur,2012,224783.7
+356,Bali,2012,43522.72
+357,Nusa Tenggara Barat,2012,15465.35
+358,Nusa Tenggara Timur,2012,12193.47
+359,Kalimantan Barat,2012,29266.77
+360,Kalimantan Tengah,2012,20652.15
+361,Kalimantan Selatan,2012,27937.63
+362,Kalimantan Timur,2012,54867.45
+363,Sulawesi Utara,2012,19812.88
+364,Gorontalo,2012,5811.347
+365,Sulawesi Tengah,2012,15524.13
+366,Sulawesi Selatan,2012,61977.97
+367,Sulawesi Tenggara,2012,10592.6
+368,Maluku Utara,2012,3961.963
+369,Maluku,2012,6184.308
+370,Papua,2012,13434.93
+371,Papua Barat,2012,5242.489
+372,Sulawesi Barat,2012,3919.76
+373,Kepulauan Riau,2012,20631.49
+374,Kalimantan Utara,2012,0
+375,Aceh,2013,25599.42
+376,Sumatera Utara,2013,119140.4
+377,Sumatera Barat,2013,36537.98
+378,Riau,2013,57954.08
+379,Jambi,2013,26329.21
+380,Sumatera Selatan,2013,61577.24
+381,Bangka Belitung,2013,8873.05
+382,Bengkulu,2013,13308.49
+383,Lampung,2013,43738.28
+384,Banten,2013,139207.3
+385,D.K.I. Jakarta,2013,728489
+386,Jawa Barat,2013,333553.7
+387,Jawa Tengah,2013,188489.2
+388,D.I. Yogyakarta,2013,22430.94
+389,Jawa Timur,2013,282930.8
+390,Bali,2013,56949.29
+391,Nusa Tenggara Barat,2013,18921.54
+392,Nusa Tenggara Timur,2013,14662.24
+393,Kalimantan Barat,2013,37535.19
+394,Kalimantan Tengah,2013,23370.42
+395,Kalimantan Selatan,2013,35733.11
+396,Kalimantan Timur,2013,69683.5
+397,Sulawesi Utara,2013,23769.54
+398,Gorontalo,2013,7213.518
+399,Sulawesi Tengah,2013,19333.28
+400,Sulawesi Selatan,2013,74306.61
+401,Sulawesi Tenggara,2013,13347.44
+402,Maluku Utara,2013,4659.657
+403,Maluku,2013,7157.579
+404,Papua,2013,16964.28
+405,Papua Barat,2013,6952.815
+406,Sulawesi Barat,2013,4846.993
+407,Kepulauan Riau,2013,24513.37
+408,Kalimantan Utara,2013,0
+409,Aceh,2014,27720.74
+410,Sumatera Utara,2014,131943.9
+411,Sumatera Barat,2014,39575.08
+412,Riau,2014,63817.33
+413,Jambi,2014,30348.76
+414,Sumatera Selatan,2014,71540.7
+415,Bangka Belitung,2014,11119.41
+416,Bengkulu,2014,14886.48
+417,Lampung,2014,49201.02
+418,Banten,2014,158749.4
+419,D.K.I. Jakarta,2014,840720.5
+420,Jawa Barat,2014,398225
+421,Jawa Tengah,2014,218168.5
+422,D.I. Yogyakarta,2014,27293.97
+423,Jawa Timur,2014,338524.2
+424,Bali,2014,68674.31
+425,Nusa Tenggara Barat,2014,22076.88
+426,Nusa Tenggara Timur,2014,16831.9
+427,Kalimantan Barat,2014,43634.09
+428,Kalimantan Tengah,2014,25786.04
+429,Kalimantan Selatan,2014,39883.75
+430,Kalimantan Timur,2014,76499.28
+431,Sulawesi Utara,2014,26818.29
+432,Gorontalo,2014,8536.996
+433,Sulawesi Tengah,2014,22101.55
+434,Sulawesi Selatan,2014,81678.62
+435,Sulawesi Tenggara,2014,15386.19
+436,Maluku Utara,2014,5191.1
+437,Maluku,2014,8100.048
+438,Papua,2014,19793.08
+439,Papua Barat,2014,8542.334
+440,Sulawesi Barat,2014,5502.568
+441,Kepulauan Riau,2014,27456.01
+442,Kalimantan Utara,2014,0
+443,Aceh,2015,29341.24
+444,Sumatera Utara,2015,145148.3
+445,Sumatera Barat,2015,44878.23
+446,Riau,2015,69438.09
+447,Jambi,2015,33308.58
+448,Sumatera Selatan,2015,79090.16
+449,Bangka Belitung,2015,11812.88
+450,Bengkulu,2015,16380.04
+451,Lampung,2015,54043.93
+452,Banten,2015,181825.3
+453,D.K.I. Jakarta,2015,918322.8
+454,Jawa Barat,2015,442451.6
+455,Jawa Tengah,2015,243344.5
+456,D.I. Yogyakarta,2015,31404.63
+457,Jawa Timur,2015,379632
+458,Bali,2015,79705.06
+459,Nusa Tenggara Barat,2015,25135.98
+460,Nusa Tenggara Timur,2015,19218.93
+461,Kalimantan Barat,2015,49256.78
+462,Kalimantan Tengah,2015,27947.53
+463,Kalimantan Selatan,2015,42507.72
+464,Kalimantan Timur,2015,78234.64
+465,Sulawesi Utara,2015,30345.34
+466,Gorontalo,2015,9793.457
+467,Sulawesi Tengah,2015,24646.51
+468,Sulawesi Selatan,2015,90327.42
+469,Sulawesi Tenggara,2015,16914.83
+470,Maluku Utara,2015,5795.958
+471,Maluku,2015,8946.268
+472,Papua,2015,21987.79
+473,Papua Barat,2015,9565.506
+474,Sulawesi Barat,2015,6109.483
+475,Kepulauan Riau,2015,31890.52
+476,Kalimantan Utara,2015,0
+477,Aceh,2016,32043.94
+478,Sumatera Utara,2016,154516.6
+479,Sumatera Barat,2016,49005.74
+480,Riau,2016,75025.48
+481,Jambi,2016,35588.62
+482,Sumatera Selatan,2016,89644.68
+483,Bangka Belitung,2016,12665.27
+484,Bengkulu,2016,18212.43
+485,Lampung,2016,59106.6
+486,Banten,2016,205469.6
+487,D.K.I. Jakarta,2016,1029952
+488,Jawa Barat,2016,488196.6
+489,Jawa Tengah,2016,268100.4
+490,D.I. Yogyakarta,2016,33897.25
+491,Jawa Timur,2016,413624.9
+492,Bali,2016,88736.9
+493,Nusa Tenggara Barat,2016,28772.7
+494,Nusa Tenggara Timur,2016,21950.16
+495,Kalimantan Barat,2016,57688.28
+496,Kalimantan Tengah,2016,29084.77
+497,Kalimantan Selatan,2016,43782.39
+498,Kalimantan Timur,2016,78511.69
+499,Sulawesi Utara,2016,33350.7
+500,Gorontalo,2016,10749.71
+501,Sulawesi Tengah,2016,27264.41
+502,Sulawesi Selatan,2016,101308.8
+503,Sulawesi Tenggara,2016,19681.82
+504,Maluku Utara,2016,6375.103
+505,Maluku,2016,9807.543
+506,Papua,2016,23806.75
+507,Papua Barat,2016,10554.02
+508,Sulawesi Barat,2016,7341.785
+509,Kepulauan Riau,2016,36718.95
+510,Kalimantan Utara,2016,3658.966
+511,Aceh,2017,34982.08
+512,Sumatera Utara,2017,163104.4
+513,Sumatera Barat,2017,51693.09
+514,Riau,2017,74994.86
+515,Jambi,2017,36903.77
+516,Sumatera Selatan,2017,95298.67
+517,Bangka Belitung,2017,14378.79
+518,Bengkulu,2017,19727.57
+519,Lampung,2017,62900.5
+520,Banten,2017,225394.4
+521,D.K.I. Jakarta,2017,1123589
+522,Jawa Barat,2017,533852.1
+523,Jawa Tengah,2017,292593.9
+524,D.I. Yogyakarta,2017,37801.14
+525,Jawa Timur,2017,447372.1
+526,Bali,2017,93950.11
+527,Nusa Tenggara Barat,2017,32616.2
+528,Nusa Tenggara Timur,2017,24675.96
+529,Kalimantan Barat,2017,62886.34
+530,Kalimantan Tengah,2017,34123.06
+531,Kalimantan Selatan,2017,48313.83
+532,Kalimantan Timur,2017,78984.1
+533,Sulawesi Utara,2017,35952.37
+534,Gorontalo,2017,11823.32
+535,Sulawesi Tengah,2017,29476.64
+536,Sulawesi Selatan,2017,109727.8
+537,Sulawesi Tenggara,2017,21652.22
+538,Maluku Utara,2017,7129.376
+539,Maluku,2017,11205.11
+540,Papua,2017,25685.54
+541,Papua Barat,2017,11751.82
+542,Sulawesi Barat,2017,8240.363
+543,Kepulauan Riau,2017,39928.06
+544,Kalimantan Utara,2017,6688.74
+545,Aceh,2018,38417.06
+546,Sumatera Utara,2018,178586.5
+547,Sumatera Barat,2018,54397.14
+548,Riau,2018,81713.65
+549,Jambi,2018,40733.38
+550,Sumatera Selatan,2018,107273
+551,Bangka Belitung,2018,15824.45
+552,Bengkulu,2018,22022.81
+553,Lampung,2018,67363.01
+554,Banten,2018,255576.4
+555,D.K.I. Jakarta,2018,1256420
+556,Jawa Barat,2018,586323.3
+557,Jawa Tengah,2018,312984.8
+558,D.I. Yogyakarta,2018,42895.07
+559,Jawa Timur,2018,485487.8
+560,Bali,2018,97474.54
+561,Nusa Tenggara Barat,2018,36496.98
+562,Nusa Tenggara Timur,2018,28288.45
+563,Kalimantan Barat,2018,68525.02
+564,Kalimantan Tengah,2018,37822.87
+565,Kalimantan Selatan,2018,54326.19
+566,Kalimantan Timur,2018,81710.85
+567,Sulawesi Utara,2018,38897.75
+568,Gorontalo,2018,13186.41
+569,Sulawesi Tengah,2018,32483.36
+570,Sulawesi Selatan,2018,117718.8
+571,Sulawesi Tenggara,2018,24302.75
+572,Maluku Utara,2018,8341.784
+573,Maluku,2018,12867.38
+574,Papua,2018,28499.17
+575,Papua Barat,2018,14060.52
+576,Sulawesi Barat,2018,9769.58
+577,Kepulauan Riau,2018,43566.82
+578,Kalimantan Utara,2018,7690.667
+579,Aceh,2019,40988.88
+580,Sumatera Utara,2019,192082.1
+581,Sumatera Barat,2019,56652.48
+582,Riau,2019,91095.47
+583,Jambi,2019,45742.07
+584,Sumatera Selatan,2019,113952
+585,Bangka Belitung,2019,20601.29
+586,Bengkulu,2019,24073
+587,Lampung,2019,74625.04
+588,Banten,2019,280595.6
+589,D.K.I. Jakarta,2019,1397063
+590,Jawa Barat,2019,646123.4
+591,Jawa Tengah,2019,341390.8
+592,D.I. Yogyakarta,2019,53044.89
+593,Jawa Timur,2019,532404.9
+594,Bali,2019,104414
+595,Nusa Tenggara Barat,2019,40180.09
+596,Nusa Tenggara Timur,2019,31898.02
+597,Kalimantan Barat,2019,73601.62
+598,Kalimantan Tengah,2019,43678.81
+599,Kalimantan Selatan,2019,57453.7
+600,Kalimantan Timur,2019,89838.17
+601,Sulawesi Utara,2019,40915.87
+602,Gorontalo,2019,14282.5
+603,Sulawesi Tengah,2019,34501.01
+604,Sulawesi Selatan,2019,125128.1
+605,Sulawesi Tenggara,2019,28518
+606,Maluku Utara,2019,9275.177
+607,Maluku,2019,14855.08
+608,Papua,2019,31237.08
+609,Papua Barat,2019,16097.06
+610,Sulawesi Barat,2019,11312.41
+611,Kepulauan Riau,2019,48054.74
+612,Kalimantan Utara,2019,8562.519
+613,Aceh,2020,41340.54
+614,Sumatera Utara,2020,195010.7
+615,Sumatera Barat,2020,58359.21
+616,Riau,2020,99119.86
+617,Jambi,2020,47443.5
+618,Sumatera Selatan,2020,114645.8
+619,Bangka Belitung,2020,18380.32
+620,Bengkulu,2020,25858.79
+621,Lampung,2020,78587.49
+622,Banten,2020,283240.9
+623,D.K.I. Jakarta,2020,1397330
+624,Jawa Barat,2020,675726.5
+625,Jawa Tengah,2020,357197.9
+626,D.I. Yogyakarta,2020,48861.59
+627,Jawa Timur,2020,533816
+628,Bali,2020,107022.9
+629,Nusa Tenggara Barat,2020,43268.71
+630,Nusa Tenggara Timur,2020,34260.14
+631,Kalimantan Barat,2020,76600.64
+632,Kalimantan Tengah,2020,48207.64
+633,Kalimantan Selatan,2020,56177.36
+634,Kalimantan Timur,2020,95347.15
+635,Sulawesi Utara,2020,41892.85
+636,Gorontalo,2020,14991.45
+637,Sulawesi Tengah,2020,36181.8
+638,Sulawesi Selatan,2020,127763.8
+639,Sulawesi Tenggara,2020,30779.96
+640,Maluku Utara,2020,9975.619
+641,Maluku,2020,15565.91
+642,Papua,2020,32910.06
+643,Papua Barat,2020,17117.03
+644,Sulawesi Barat,2020,12204.74
+645,Kepulauan Riau,2020,48084.98
+646,Kalimantan Utara,2020,9441.113
+647,Aceh,2021,39788.42
+648,Sumatera Utara,2021,203077.6
+649,Sumatera Barat,2021,60810.18
+650,Riau,2021,103393.2
+651,Jambi,2021,49708.72
+652,Sumatera Selatan,2021,117471.8
+653,Bangka Belitung,2021,16474.86
+654,Bengkulu,2021,27119.67
+655,Lampung,2021,81435.49
+656,Banten,2021,295777.5
+657,D.K.I. Jakarta,2021,1363422
+658,Jawa Barat,2021,699342.9
+659,Jawa Tengah,2021,368300.8
+660,D.I. Yogyakarta,2021,50642.78
+661,Jawa Timur,2021,528074
+662,Bali,2021,107601
+663,Nusa Tenggara Barat,2021,46373.8
+664,Nusa Tenggara Timur,2021,36773.34
+665,Kalimantan Barat,2021,78194.1
+666,Kalimantan Tengah,2021,49040.58
+667,Kalimantan Selatan,2021,57173.48
+668,Kalimantan Timur,2021,96873.01
+669,Sulawesi Utara,2021,44420.18
+670,Gorontalo,2021,15525.22
+671,Sulawesi Tengah,2021,37856.54
+672,Sulawesi Selatan,2021,132810.4
+673,Sulawesi Tenggara,2021,32613.04
+674,Maluku Utara,2021,11441.84
+675,Maluku,2021,16339.13
+676,Papua,2021,34438.92
+677,Papua Barat,2021,17868.98
+678,Sulawesi Barat,2021,13719.42
+679,Kepulauan Riau,2021,50331.25
+680,Kalimantan Utara,2021,10638.91
+681,Aceh,2022,41394.16
+682,Sumatera Utara,2022,211967.7
+683,Sumatera Barat,2022,65750.06
+684,Riau,2022,116901.7
+685,Jambi,2022,52719.34
+686,Sumatera Selatan,2022,125567.1
+687,Bangka Belitung,2022,16600.27
+688,Bengkulu,2022,28743.28
+689,Lampung,2022,87061.73
+690,Banten,2022,342547.3
+691,D.K.I. Jakarta,2022,1467581
+692,Jawa Barat,2022,758719
+693,Jawa Tengah,2022,407916.2
+694,D.I. Yogyakarta,2022,54957.7
+695,Jawa Timur,2022,573404.2
+696,Bali,2022,109940.4
+697,Nusa Tenggara Barat,2022,51867.79
+698,Nusa Tenggara Timur,2022,40048.49
+699,Kalimantan Barat,2022,81459.19
+700,Kalimantan Tengah,2022,54464.86
+701,Kalimantan Selatan,2022,63730.64
+702,Kalimantan Timur,2022,109041.6
+703,Sulawesi Utara,2022,47475.06
+704,Gorontalo,2022,16649.33
+705,Sulawesi Tengah,2022,41736.88
+706,Sulawesi Selatan,2022,141185.9
+707,Sulawesi Tenggara,2022,36126.24
+708,Maluku Utara,2022,15004.93
+709,Maluku,2022,17151.53
+710,Papua,2022,37628.26
+711,Papua Barat,2022,19172.66
+712,Sulawesi Barat,2022,14424.11
+713,Kepulauan Riau,2022,53939.21
+714,Kalimantan Utara,2022,12515.71
