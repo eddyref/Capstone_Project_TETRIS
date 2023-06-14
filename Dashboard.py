@@ -67,7 +67,7 @@ k_pdrb = pd.merge(k_pivot[k_pivot['tahun'] >= 2011],
                   pdrb_ver.groupby('tahun')[['PDRB']].sum(),
                   on='tahun')
 k_pdrb = k_pdrb.reset_index()
-k_pdrb['tahun'] = k_pdrb['tahun'].astype(str)
+k_pdrb['tahun'] = pd.to_numeric(k_pdrb['tahun'])
 
 # Title and Prologue
 
