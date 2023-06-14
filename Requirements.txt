@@ -1,0 +1,6 @@
+pandas
+matplotplib.pyplot
+seaborn
+numerize.numerize
+adjustText.adjust_text
+geopandas
