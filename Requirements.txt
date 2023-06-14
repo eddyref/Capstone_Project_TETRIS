@@ -1,6 +1,6 @@
 pandas
-matplotplib.pyplot
+matplotplib
 seaborn
-numerize.numerize
-adjustText.adjust_text
+numerize
+adjustText
 geopandas
