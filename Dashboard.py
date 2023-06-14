@@ -66,7 +66,7 @@ kp_pdrb = pd.merge(kp[kp['tahun'] >= 2011].reset_index(),
 k_pdrb = pd.merge(k_pivot[k_pivot['tahun'] >= 2011],
                   pdrb_ver.groupby('tahun')[['tahun', 'PDRB']].sum(),
                   on='tahun')
-k_pdrb = k_pdrb.reset_index(level=0)
+k_pdrb = k_pdrb.reset_index().drop(columns='tahun')
 
 # Title and Prologue
 
