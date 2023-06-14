@@ -56,19 +56,15 @@ dg_pdrb = pd.merge(dg, pdrb, left_on='Provinsi', right_on='provinsi')
 # Data Hubungan Kredit dan PDRB
 pdrb_ver = pd.melt(pdrb, id_vars=['no', 'provinsi'],
                    value_vars=[(2011+i) for i in range(12)],
-                   var_name = 'tahun',
-                   value_name = 'PDRB')
+                   var_name='tahun',
+                   value_name='PDRB')
 kp['provinsi'] = kp['provinsi'].str.upper()
 kp_pdrb = pd.merge(kp[kp['tahun'] >= 2011].reset_index(),
                    pdrb_ver[pdrb_ver['provinsi'] != 'NASIONAL'],
                    on=['provinsi', 'tahun'])
 
-pdrb_ver = pd.melt(pdrb, id_vars=['no', 'provinsi'],
-                   value_vars=[(2011+i) for i in range(12)],
-                   var_name='tahun',
-                   value_name='PDRB')
 k_pdrb = pd.merge(k_pivot[k_pivot['tahun'] >= 2011],
-                  pdrb_ver.groupby('tahun')[['tahun', 'PDRB']].sum(),
+                  pdrb_ver.groupby('tahun')[['PDRB']].sum(),
                   on='tahun')
 
 # Title and Prologue
