@@ -415,14 +415,14 @@ with tab_b:
                                ['Jumlah', 'Rata-Rata', 'Median', 'Kuartil 1', 'Kuartil 3'])
     if iAgg_method2 == 'Jumlah':
         agg_method2 = sum
-    elif iAgg_method2 == 'Rata-Rata':
-        agg_method2 = lambda x: x.mean()
-    elif iAgg_method2 == 'Median':
-        agg_method2 = lambda x: x.mean()
-    elif iAgg_method2 == 'Kuartil 1':
-        agg_method2 = lambda x: x.quantile(0.25)
-    else:
-        agg_method2 = lambda x: x.quantile(0.75)
+    # elif iAgg_method2 == 'Rata-Rata':
+        # agg_method2 = lambda x: x.mean()
+    # elif iAgg_method2 == 'Median':
+        # agg_method2 = lambda x: x.mean()
+    # elif iAgg_method2 == 'Kuartil 1':
+        # agg_method2 = lambda x: x.quantile(0.25)
+    # else:
+        # agg_method2 = lambda x: x.quantile(0.75)
 
     k_pdrb['Agg'] = k_pdrb[['investasi', 'konsumsi', 'modal kerja']].apply(agg_method2, axis=1)
 
