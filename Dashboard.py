@@ -63,6 +63,7 @@ kp_pdrb = pd.merge(kp[kp['tahun'] >= 2011].reset_index(),
                    pdrb_ver[pdrb_ver['provinsi'] != 'NASIONAL'],
                    on=['provinsi', 'tahun'])
 
+k_pivot = k_pivot.reset_index()
 k_pdrb = pd.merge(k_pivot[k_pivot['tahun'] >= 2011],
                   pdrb_ver.groupby('tahun')[['tahun', 'PDRB']].sum(),
                   on='tahun')
