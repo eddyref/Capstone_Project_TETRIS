@@ -9,7 +9,7 @@ import geopandas as gpd
 # Configure
 st.set_page_config(
     page_title="Capstone Project Dashboard",
-    layout="centered", page_icon="📈",
+    layout="wide", page_icon="📈",
     initial_sidebar_state="expanded",
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
@@ -17,7 +17,6 @@ st.set_page_config(
         'About': "# This is a header. This is an *extremely* cool app!"
     }
 )
-st.title('Pengaruh Pemberian Kredit Sebagai Pemicu Pertumbuhan Produk Regional Domestik Bruto')
 
 # Import dataframe
 kp = pd.read_csv('https://raw.githubusercontent.com/Fery-K/Capstone_Project_TETRIS/master/Datasets/kredit_provinsi.csv')
@@ -70,6 +69,33 @@ k_pdrb = k_pdrb.reset_index()
 k_pdrb['tahun'] = pd.to_numeric(k_pdrb['tahun'])
 
 # Title and Prologue
+st.title('Pengaruh Pemberian Kredit Sebagai Pemicu Pertumbuhan Produk Regional Domestik Bruto')
+st.markdown("""
+            **Menurut Undang-Undang No.10 Tahun 1998:**  
+            Kredit adalah penyediaan uang atau tagihan yang dapat dipersamakan dengan itu,
+            berdasarkan persetujuan atau kesepakatan pinjam-meminjam antara bank dengan pihak lain
+            yang mewajibkan pihak peminjam untuk melunasi utangnya setelah jangka waktu tertentu 
+            dengan pemberian bunga.
+            """)
+
+st.markdown("""
+            **Fungsi Kredit Secara Umum Menurut Latumaerissa:**  
+            1. Meningkatkan Daya Guna Uang  &emsp; &emsp; &emsp; &emsp; &emsp; &ensp;  4. Meningkatkan Daya Guna Barang
+            2. Mengendalikan Stabilitas Ekonomi  &emsp; &emsp; &emsp; &emsp; &nbsp;  5. Meningkatkan Pendapatan Nasional
+            3. Meningkatkan Kegairahan Usaha Masyarakat  &ensp; &nbsp; 6. Meningkatkan Hubungan Nasional
+            """)
+
+st.markdown("""
+            **Produk Domestik Regional Bruto (PDRB):**  
+            adalah salah satu indikator penting untuk mengetahui kondisi ekonomi 
+            di suatu daerah dalam suatu periode tertentu,
+            baik atas dasar harga berlaku maupun atas dasar harga konstan.  
+            PDRB merupakan jumlah nilai tambah yang dihasilkan oleh seluruh unit ekonomi dalam suatu daerah tertentu.  
+            """)
+st.markdown('PDRB dapat ditentukan dengan _Expenditure Approach_,')
+st.latex(r'''  
+        \text{PDRB} = \text{konsumsi} + \text{investasi} + \text{pengeluaran pemerintah} + \text{(ekspor - impor)}
+        ''')
 
 # Header 1
 st.header('Obsevasi Data Kredit dan PDRB')
@@ -77,7 +103,11 @@ st.header('Obsevasi Data Kredit dan PDRB')
 tab1, tab2 = st.tabs(['Data Jumlah Pemberian Kredit',
                       'Data Pertumbuhan PDRB'])
 
+
 with tab1:
+    # Subheader 1
+    st.subheader('Jumlah Pemberian Kredit Berdasarkan Provinsi')
+
     # Input By User
     iTahun_awal, iTahun_akhir = st.select_slider(
         'Pilih Tahun',
@@ -88,31 +118,55 @@ with tab1:
     bydata1 = iTahun_awal
     bydata2 = iTahun_akhir
 
-    # Plotting
-    fig, ax = plt.subplots(figsize=(4, 5))
-    kp_pivot.plot(
-        x='provinsi',
-        y=kp_pivot.loc[:, bydata1:bydata2].columns,
-        kind='barh',
-        stacked=True,
-        colormap='tab20c',
-        ax=ax)
+    kol1, kol2 = st.columns([5, 3])
 
-    # Plot Setting
-    ax.set_title('Jumlah Rata-Rata Kredit per Tahun Tiap Provinsi', fontsize=6)
-    ax.set_xlabel('Jumlah Kredit (Milyar Rupiah)', fontsize=6)
-    ax.set_ylabel('')
-    ax.set_xscale('log')
-    ax.legend(prop={'size': 3})
-    ax.tick_params(axis='x', labelsize=5)
-    ax.tick_params(axis='y', labelsize=5)
+    with kol1:
+        # Plotting
+        fig, ax = plt.subplots(figsize=(4, 5))
+        kp_pivot.plot(
+            x='provinsi',
+            y=kp_pivot.loc[:, bydata1:bydata2].columns,
+            kind='barh',
+            stacked=True,
+            colormap='tab20c',
+            ax=ax)
 
-    st.pyplot(fig)
+        # Plot Setting
+        ax.set_title('Jumlah Rata-Rata Kredit per Tahun Tiap Provinsi', fontsize=6)
+        ax.set_xlabel('Jumlah Kredit (Milyar Rupiah)', fontsize=6)
+        ax.set_ylabel('')
+        ax.set_xscale('log')
+        ax.legend(prop={'size': 5})
+        ax.tick_params(axis='x', labelsize=5)
+        ax.tick_params(axis='y', labelsize=5)
+
+        st.pyplot(fig)
+
+    with kol2:
+        st.dataframe(kp_pivot, hide_index=True)
 
     # Horizontal Divider
     st.divider()
 
-    # Subheader 1
+    # Subheader 2
+    st.subheader('Jumlah Pemberian Kredit Berdasarkan Jenis Penggunaan')
+
+    st.markdown("""
+            Jenis-jenis kredit dapat dibedakan berdasarkan berbagai kategori, salah satunya adalah 
+            berdasarkan tujuan penggunaan. **Jenis Kredit** Berdasarkan **Penggunaannya** dibedakan menjadi:  
+            1. **Kredit Konsumsi**  
+               Kredit Konsumsi adalah kredit yang digunakan untuk pengadaan barang atau jasa untuk
+                tujuan konsumsi, dan bukan berupa barang modal dalam kegiatan usaha.   
+                kredit ini dapat digunakan oleh nasabah untuk berbagai tujuan pribadi.
+            2. **Kredit Investasi**  
+               Kredit Investasi adalah kredit berjangka waktu yang diberikan kepada
+                usaha-usaha guna merehabilitasi, modernisasi, perluasan ataupun pendirian proyek baru,  
+                misalnya untuk pembelian mesin-mesin, bangunan dan tanah untuk pabrik.
+            3. **Kredit Modal Kerja**  
+               Kredit Modal Kerja adalah kredit untuk modal kerja perusahaan dalam rangka
+                pembiayaan aktiva lancar perusahaan, seperti pembelian bahan baku/mentah,  
+                bahan penolong/pembantu, barang dagangan, biaya eksploitasi barang modal, piutang dan lain-lain.
+            """)
 
     # Input By User
     st.text('Jenis Penggunaan Kredit')
@@ -164,6 +218,19 @@ with tab1:
     st.pyplot(fig2)
 
 with tab2:
+    # Subheader 1
+    st.subheader('Perbandingan Tahun Ke Tahun')
+
+    st.markdown("""
+                Berikut ini visualisasi data yang menggambarkan persebaran pertumbuhan PDRB pada setiap provinsi.  
+                _Data provinsi yang digunakan masih berdasarkan pemekaran **34 provinsi**_.
+                """)
+    st.markdown("""
+                Nilai pertumbuhan PDRB umumnya didasarkan atas **suatu nilai** yang menjadi patokan, 
+                dapat didasarkan atas harga pasar berlaku maupun didasarkan atas harga konstan pada tahun tertentu.  
+                Visualisasi data berikut menggunakan nilai pertumbuhan PDRB atas **harga konstan tahun 2010**.
+                """)
+
     # Berdasarkan Tahun ke Tahun
     iTahun1, iTahun2 = st.select_slider(
         'Pilih Tahun',
@@ -241,6 +308,9 @@ with tab2:
     # Horizontal Divider
     st.divider()
 
+    # Subheader 2
+    st.subheader('Secara Keseluruhan Tahun 2011-2022')
+
     # Secara Keseluruhan Tahun 2011-2022
     iAgg_method = st.selectbox('Agregasi Berdasarkan',
                                ['Jumlah', 'Rata-Rata', 'Median', 'Maksimum', 'Kuartil 1', 'Kuartil 3'])
@@ -289,14 +359,29 @@ with tab2:
 
     st.pyplot(fig)
 
+    st.markdown("""
+                Secara keseluruhan tahun 2011-2022, persebaran nilai pertumbuhan PDRB terlihat **tidak merata**, bahkan
+                sangat beragam sehingga dapat dikatakan jauh dari kondisi ideal pemerataan ekonomi provinsi.  
+                **Namun**, hal unik yang dapat diamati adalah secara garis besar, **DKI Jakarta** menempati provinsi dengan 
+                nilai PDRB **tertinggi** dan **NTT** menempati provinsi dengan nilai PDRB **terendah**.  
+                  
+                Padahal dari pengamatan data **pemberian kredit**, **DKI Jakarta** dan **NTT** termasuk provinsi dengan 
+                pemberian kredit yang cenderung tinggi.  
+                Hal ini membuat adanya **dugaan** bahwa pemberian kredit **tidak** serta-merta **berpengaruh** terhadap pertumbuhan PDRB.
+                """)
+
+st.divider()
 
 # Header 2
 st.header('Hubungan Pemberian Kredit dan Pertumbuhan PDRB')
 
 tab_a, tab_b = st.tabs(['Berdasarkan Provinsi',
-                         'Berdasarkan Jenis Penggunaan'])
+                        'Berdasarkan Jenis Penggunaan'])
 
 with tab_a:
+    # Subheader 1
+    st.subheader('Hubungan Provinsi Antar Provinsi')
+
     # Secara Keseluruhan Provinsi
     df = kp_pdrb.groupby('provinsi')[['kredit', 'PDRB']].mean().reset_index()
 
@@ -320,8 +405,23 @@ with tab_a:
 
     st.pyplot(plot2)
 
+    st.markdown("""
+                Secara garis besar, sebagian provinsi memiliki hubungan **linear positif**, dimana semakin tinggi jumlah
+                pemberian kredit menyebabkan semakin tinggi pula nilai pertumbuhan PDRB.  
+                  
+                Selain itu, terdapat 2 _insights_ yang dapat diambil:  
+                1. Adanya provinsi yang tidak memiliki hubungan linear positif.  
+                   Jawa Timur, Jawa Barat, dan Jawa Tengah: pemberian kredit ⬆️, pertumbuhan PDRB ⬇️  
+                   Kalimantan Timur, Kalimantan Utara, Riau, Kepulauan Riau, Papua Barat: 
+                   pemberian kredit ⬇️, pertumbuhan PDRB ⬆️  
+                2. Adanya provinsi yang memiliki hubungan linear positif, tetapi _outlier_ dibanding dengan provinsi lain.
+                """)
+
     # Horizontal Divider
     st.divider()
+
+    # Subheader 2
+    st.subheader('Hubungan Tahun Ke Tahun')
 
     # Berdasarkan Provinsi
     prov = st.selectbox('Pilih Provinsi',
@@ -372,8 +472,25 @@ with tab_a:
 
     st.pyplot(plot1)
 
+    st.markdown("""
+                lebih detil lagi, dapat diperiksa bagaimana hubungan pemberian kredit dan pertumbuhan PDRB 
+                pada setiap provinsi.  
+                  
+                Terdapat provinsi dengan **|nilai korelasi| < 0.5**, yaitu:  
+                1. Kalimantan Timur (korelasi: 0.4664)  
+                2. Papua (korelasi: 0.0639)  
+                  
+                Bahkan, terdapat provinsi dengan **nilai korelasi < 0**, yaitu:  
+                1. Papua Barat (korelasi: -0.0352)  
+                  
+                Sehingga pada ketiga provinsi ini, pemberian kredit **belum** dapat dikatakan **berpengaruh** 
+                terhadap pertumbuhan PDRB. 
+                """)
 
 with tab_b:
+    # Subheader 1
+    st.subheader('Tujuan Penggunaan Kredit')
+
     # Berdasarkan Jenis Penggunaan
     jenis_kredit = st.radio('Pilih Jenis Penggunaan Kredit',
                             ['konsumsi', 'investasi', 'modal kerja'])
@@ -386,7 +503,7 @@ with tab_b:
     corr = k_pdrb[jenis_kredit].corr(k_pdrb['PDRB'])
 
     # Plot Setting
-    plt.title('Hubungan Posisi Kredit Dengan PDRB Tahun 2011-2022 Berdasarkan Jenis Penggunaan')
+    plt.title('Hubungan Posisi Kredit Dengan PDB Tahun 2011-2022 Berdasarkan Jenis Penggunaan')
     plt.xlabel(f'Kredit {jenis_kredit}')
     plt.legend(loc='upper left')
     plt.annotate(f'Correlation: {corr:.4f}', xy=(0.01, 0.9), xycoords='axes fraction')
@@ -407,8 +524,22 @@ with tab_b:
 
     st.pyplot(plot3)
 
+    st.markdown("""
+                Dari jenis-jenis penggunaan kredit, kredit konsumsi, investasi, dan modal kerja, terdapat hubungan 
+                linear positif sehingga dapat dikatakan pemberian kredit **berpengaruh positif** terhadap 
+                pertumbuhan PDB dengan nilai korelasi yang cenderung tinggi, yaitu **di atas 0.90**.  
+                  
+                Hal lain yang dapat diamati adalah terdapat 1 hingga 2 tahun dimana pemberian kredit 
+                tidak berpengaruh positif terhadap pertumbuhan PDB, yaitu tahun **2020 hingga 2021**.  
+                Hal ini sangat mungkin terjadi, mengingat adanya **pandemi COVID-19** yang **mempengaruhi** pertumbuhan 
+                ekonomi nasional yang kemudian berpengaruh terhadap **pertumbuhan PDB**
+                """)
+
     # Horizontal Divider
     st.divider()
+
+    # Subheader 2
+    st.subheader('Secara Keseluruhan Penggunaan')
 
     # Secara Keseluruhan Penggunaan
     iAgg_method2 = st.selectbox('Agregasi Berdasarkan',
@@ -435,7 +566,7 @@ with tab_b:
     corr = k_pdrb['Agg'].corr(k_pdrb['PDRB'])
 
     # Plot Setting
-    plt.title('Hubungan Posisi Kredit Dengan PDRB Tahun 2011-2022 Berdasarkan Jenis Penggunaan')
+    plt.title('Hubungan Posisi Kredit Dengan PDB Tahun 2011-2022 Berdasarkan Jenis Penggunaan')
     plt.xlabel(f'Kredit Agregasi')
     plt.legend(loc='upper left')
     plt.annotate(f'Correlation: {corr:.4f}', xy=(0.01, 0.9), xycoords='axes fraction')
@@ -454,3 +585,17 @@ with tab_b:
                                 ha='left', va='bottom'))
     adjust_text(txt)
     st.pyplot(plot4)
+
+    st.markdown("""
+                Secara Keseluruhan Penggunaan, dapat dikatakan pemberian kredit **berpengaruh positif** terhadap 
+                pertumbuhan PDB dengan nilai **korelasi mendekati 1**. Namun, terdapat beberapa **faktor** yang membuat 
+                kedua hal tersebut **tidak saling berpengaruh**. Misalnya dari segi **pemerataan pembangunan provinsi**, 
+                dan **pertumbuhan ekonomi nasional** pada beberapa tahun silam.
+                """)
+
+    st.divider()
+    st.caption('SARAN UNTUK PENELITIAN LEBIH LANJUT  \n'
+               'Perlu diingat bahwa data yang digunakan adalah data posisi pemberian kredit berdasarkan jenis '
+               'penggunaan dalam skala nasional.  '
+               'Jika menggunakan data dalam skala provinsi, akan sangat memungkinkan pada beberapa provinsi,  '
+               'tidak semua jenis penggunaan kredit berpengaruh secara positif terhadap pertumbuhan PDRB.')
